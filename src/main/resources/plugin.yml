@@ -1,4 +1,15 @@
 name: MiniGameFramework
-version: '1.0-SNAPSHOT'
 main: net.milocodee.minigame.MiniGamePlugin
-api-version: '1.21'
+version: 1.0
+api-version: 1.21
+authors: ["Milo"]
+commands:
+  startminigame:
+    description: Force-start a minigame (Admin)
+    permission: minigame.start
+  joingame:
+    description: Join the lobby
+permissions:
+  minigame.start:
+    description: Allows starting the minigame
+    default: op
