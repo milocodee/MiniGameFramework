@@ -1,0 +1,4 @@
+name: MiniGameFramework
+version: '1.0-SNAPSHOT'
+main: net.milocodee.minigame.MiniGamePlugin
+api-version: '1.21'
